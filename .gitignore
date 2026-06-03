@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# env — never commit real keys
+.env.local
+.env*.local
+
+# TypeScript
+tsconfig.tsbuildinfo
+*.tsbuildinfo
+
+# IDE / OS
+.DS_Store
+.idea/
+*.swp
+*.swo
+
+# Claude Code project files
+.claude/
